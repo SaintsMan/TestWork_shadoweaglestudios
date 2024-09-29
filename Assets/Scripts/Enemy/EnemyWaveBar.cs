@@ -14,7 +14,7 @@ public class EnemyWaveBar : MonoBehaviour
 
     public void UpdateWaveInfo(int currentWave, int totalEnemiesInWave, int currentKillCount)
     {
-        wavesText.text = $"Wave: {currentWave}";
+        wavesText.text = $"Wave: {currentWave}/{SceneManager.Instance.config.Waves.Length}";
         enemiesText.text = $"Enemies: {currentKillCount}/{totalEnemiesInWave}";
 
         float fillAmount = (float)currentKillCount / totalEnemiesInWave;
