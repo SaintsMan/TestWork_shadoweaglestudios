@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e6dcbae99c7b24e90ec6a0baa899b9, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  Waves:
+  - {fileID: 11400000, guid: 244a5bf9e7f852946a32b13346255ccb, type: 2}
+  - {fileID: 11400000, guid: fe878cfe85a98d6418cb66aa42e5b779, type: 2}
+  - {fileID: 11400000, guid: 61d2ff3887d8cd04f97de843983e4a0c, type: 2}
+  - {fileID: 11400000, guid: 1e0ee4477b5a2a5498b50a54e37e2e01, type: 2}
+  - {fileID: 11400000, guid: 8b9e98c57bb346a4eb6ad307aecd1fc2, type: 2}
+  - {fileID: 11400000, guid: a3d18d9fff375634abc24ee556310844, type: 2}
+  - {fileID: 11400000, guid: 8b3c7415078724f4493111f36fcda724, type: 2}
+  - {fileID: 11400000, guid: a3055905146f1cd48849c808c4f3f3d7, type: 2}
+  - {fileID: 11400000, guid: 40d4ce88f4834494eb5a5032169f6838, type: 2}
+  - {fileID: 11400000, guid: 722892074cb3a9f42b7849c37725689f, type: 2}
+  littleEnemy: {fileID: 4570157599844447218, guid: bf6f68074816ae54290fb2b0be388955, type: 3}
